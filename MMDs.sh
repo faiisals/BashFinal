@@ -1,6 +1,7 @@
 #!/bin/bash
 #Use centOS operating system
 #main function use's case statment combained with if statment to check if user is root
+#Nothing added just practicing how to fork projects
 main(){
 uid=$( id -u )
 echo -e "Please write the number of method that you want:\n1-Check host is up.\n2-hash /etc/passwd\n3-Check /etc/passwd for changes.\n4-Read /etc/passwd using a loop\n*Enter anything else then press enter to exit.\n"
